@@ -2,6 +2,7 @@
 
 AurenCMS is an **experimental Content Management System (CMS)** built with **Next.js**.  
 It is currently in a **very early stage of development** and is evolving rapidly.
+<img width="1891" height="967" alt="image" src="https://github.com/user-attachments/assets/8006451e-215e-42ef-a9d7-13ac0be329a3" />
 
 ---
 
