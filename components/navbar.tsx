@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X, ChevronDown, User, Settings, LogOut, Bell, Home, Ticket, HelpCircle, DollarSign } from "lucide-react"
+import { Menu, X, ChevronDown, User, Settings, LogOut, Bell, Home, Ticket, HelpCircle, DollarSign, BarChart3, MessageSquare, Calendar, FileText, Users, TrendingUp, Code, Smartphone, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Link from "next/link"
@@ -9,8 +9,18 @@ import Link from "next/link"
 const navigation = [
   { name: "Home", href: "#home", icon: Home },
   { name: "Pricing", href: "#pricing", icon: DollarSign },
+  { name: "Dashboard", href: "/dashboard", icon: BarChart3 },
   { name: "Tickets", href: "/tickets", icon: Ticket },
-  { name: "FAQ", href: "#faq", icon: HelpCircle }
+  { name: "Chat", href: "/chat", icon: MessageSquare },
+  { name: "Calendar", href: "/calendar", icon: Calendar },
+  { name: "Files", href: "/files", icon: FileText },
+  { name: "Collaborate", href: "/collaborate", icon: Users },
+  { name: "Reports", href: "/reports", icon: TrendingUp },
+  { name: "API Docs", href: "/api-docs", icon: Code },
+  { name: "Help", href: "/help", icon: HelpCircle },
+  { name: "Mobile", href: "/mobile", icon: Smartphone },
+  { name: "Widgets", href: "/widgets", icon: Settings },
+  { name: "Marketplace", href: "/marketplace", icon: Globe }
 ]
 
 export default function Navbar() {

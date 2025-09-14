@@ -20,6 +20,16 @@ The core structure and foundational modules are being worked on. A stable releas
 
 ---
 
+## ✨ Features
+- **Dynamic Content Management** – Easily create, edit, and delete pages and posts.
+- **Responsive Design** – Works seamlessly on desktop and mobile devices.
+- **Next.js Integration** – Leverages server-side rendering for fast performance.
+- **TypeScript Support** – Strong typing for safer and more maintainable code.
+- **Planned Features:** Prisma ORM integration, Tailwind CSS styling, multi-user support.
+- **Additional Features:** - Pricing, Dashboard, Mobile app simulation for full functional UI/UX.
+- **Widgets** - Widgets for advanced dashboard and navbar.
+
+
 ## 📦 Getting Started
 To run the project locally:
 
